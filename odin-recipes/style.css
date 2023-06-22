@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.container{
+    background-image: url(./images/despina-galani-_Q8IRmOpsGM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    height: 100vh;
+    width: 100vw;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+ul{
+    list-style: none;
+    padding: 0 0 1% 0;
+}
+
+li{
+    box-sizing: border-box;
+    padding: 12% 0 0 0;
+    width: 120px;
+}
+a{
+    text-decoration: none;
+    color: rgb(201, 197, 197);
+}
+a:visited{
+    color: inherit;
+}
